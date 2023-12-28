@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       class="source"
-      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@300;400;600;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
@@ -26,7 +26,7 @@
           <h1>Check this out</h1>
         </div>
 
-        <button>Share a fact</button>
+        <button class="btn btn-large">Share a fact</button>
       </header>
 
       <form class="fact-form">
@@ -39,19 +39,33 @@
           <option value="science">Science</option>
           <option value="finance">Finance</option>
         </select>
-        <button>Post</button>
+        <button class="btn btn-large">Post</button>
       </form>
 
       <main class="main">
         <aside>
           <ul>
-            <li><button>All</button></li>
+            <li><button class="btn btn-all-categories">All</button></li>
           </ul>
           <ul>
-            <li><button>Technology</button></li>
+            <li class="category">
+              <button
+                class="btn btn-categories"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
+            </li>
           </ul>
           <ul>
-            <li><button>Science</button></li>
+            <li class="category">
+              <button
+                class="btn btn-categories"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
+            </li>
           </ul>
         </aside>
 
